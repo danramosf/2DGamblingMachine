@@ -1,3 +1,7 @@
+#2DGamblingMachine
+
+A Simple gambling machine. User wins when guess all the three numbers right.
+
 # upm-package-template-2D
 Project Template for 2D scenes not using a SRP 
 
