@@ -29,10 +29,12 @@ public class GambleMachine : MonoBehaviour {
         if (usrNums.SequenceEqual(rndNums))
         {
             Debug.Log("User win.");
+            ((SceneLoader)this.GetComponent("SceneLoader")).LoadNextScene();
         }
         else
         {
             Debug.Log("User loses.");
+            ((SceneLoader)this.GetComponent("SceneLoader")).LoadNextScene();
         }
     }
 
